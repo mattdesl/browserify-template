@@ -28,17 +28,17 @@ If you're getting Administrator issues, you might need to run as root with `sudo
 sudo chown -R $USER /usr/local
 ```
 
-Before we can see our site at `index.html`, we need to bundle our third-party libraries and the core content like so:
+Before we can see our site at `index.html`, we need to browserify our source like so:
 ```
 grunt bundle-all
 ```
 
-Now we only need to browserify our vendor libs when we introduce a new dependency. We do this for faster browserify builds and also to split the load across files. See here:  
+After this, we can just use `grunt bundle-core` to bundle our project source. Now we only need to browserify our vendor libs when we introduce a new external. We do this for faster browserify builds and also to split the load across files. See here:  
 http://benclinkinbeard.com/blog/2013/08/external-bundles-for-faster-browserify-builds/
 
-## Development
+## Typical Development Workflow
 
-Run `grunt -v watch` to begin your development process (with verbose output for better debugging). Now when you change a JS file inside of `lib`, it will browserify your `lib/index.js` file. Anything you `require()` here will end up getting included in the bundled `dist/bundle.js`.
+Run `grunt -v watch` to begin your development process (with verbose output for better debugging). Now when you change a JS file inside of `lib`, it will browserify your `lib/index.js` file. Anything you `require()` here will end up getting included in the bundled `dist/bundle.js`. 
 
 You can enable the LiveReload plugin by clicking the Extension button in Chrome/FF. Now when the browserify build is complete, your web page should refresh automatically.
 
