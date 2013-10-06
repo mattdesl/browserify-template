@@ -46,27 +46,11 @@ If you aren't already, check out [http-server](https://github.com/nodeapps/http-
 
 # Other Notes
 
-### Installing Other Modules
-
-Install another module like so:
-
-```npm install underscore --save```
-
-This will save it to your "dependencies" in the `package.json`. You should use `--save-dev` for things like unit testing, build steps, grunt plugins, etc.
-
-Likewise, for more client-side packages (like THREE.js) you should install them with Bower:
-
-```bower install threejs --save```
-
-And then, if necessary, add a shim.
-
 ### .npmignore
 
-When somebody else uses `install` to grab your package, they don't want all the bloat of documentation, binary files, build steps, unit tests, etc. So update the `.npmignore` file accordingly.
+When somebody else uses `install` to grab your package, they don't want all the bloat of documentation, binary files, build steps, unit tests, etc. So keep your `.npmignore` updated accordingly. Same goes for the `ignore` array in `bower.json`.
 
-
-
-## Future Stuff
+### Future Stuff
 
 Some features you will probably want to add to your project:
 
