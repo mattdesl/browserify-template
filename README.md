@@ -1,7 +1,7 @@
 browserify-template
 ===================
 
-This is a "real world" example for a client-side browserify ande Node-based project.
+This is an example of a client-side browserify ande Node-based project. At some point it will be turned into a Yeoman generator.
  
 - [MikkoH/jsOOP](https://github.com/MikkoH/jsOOP) -- a [forked version](https://github.com/mattdesl/jsOOP) for Node.
 - [requestAnimationFrame polyfill](https://github.com/thomaswelton/requestAnimationFrame)
