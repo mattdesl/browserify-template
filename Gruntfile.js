@@ -40,6 +40,10 @@ Libs.addShims([
 		path:    'bower_components/jquery.transit/jquery.transit.js', 
 		exports: null,
 		depends: { jquery: '$' }
+	},
+	{ 
+		alias: 	 'raf.js',
+		path:    'bower_components/raf.js/raf.js'
 	}
 ]);
 
