@@ -49,7 +49,7 @@ module.exports = function(grunt) {
 
 		pkg: grunt.file.readJSON('package.json'),
 
-		distdir: 'build',
+		distdir: 'build', //NOTE: if you change this, update the git / npm ignores 
 		srcdir: 'lib',
 
 		browserify: {
