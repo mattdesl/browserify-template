@@ -28,12 +28,13 @@ If you're getting Administrator issues, you might need to run as root with `sudo
 sudo chown -R $USER /usr/local
 ```
 
-## Bundling External Libs
+Before we can see our site at `index.html`, we need to bundle our third-party libraries and the core content like so:
+```
+grunt bundle-all
+```
 
-First, you need to build the `libs.js`. We use a separate build for THREE.js, jQuery, etc to speed things up a little, and split the load across more files. See here:  
+Now we only need to browserify our vendor libs when we introduce a new dependency. We do this for faster browserify builds and also to split the load across files. See here:  
 http://benclinkinbeard.com/blog/2013/08/external-bundles-for-faster-browserify-builds/
-
-To bundle these, we use `grunt bundle-libs` (or `build-all`). This will concat them into `dist/libs.js` which our HTML includes with a simple script tag.
 
 ## Development
 
