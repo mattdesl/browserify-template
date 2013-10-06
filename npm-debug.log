@@ -1,0 +1,502 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.2.24
+3 info using node@v0.10.9
+4 verbose read json /projects/browserify-template/package.json
+5 warn package.json kami-demos@0.0.0 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/projects/browserify-template',
+7 verbose install   [ 'kami-math',
+7 verbose install     'grunt-contrib-watch',
+7 verbose install     'grunt-browserify',
+7 verbose install     'browserify' ] ]
+8 verbose from cache /projects/browserify-template/package.json
+9 info preinstall kami-demos@0.0.0
+10 verbose from cache /projects/browserify-template/package.json
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'grunt-browserify@~1.2.8', null ]
+13 verbose cache add name=undefined spec="grunt-browserify@~1.2.8" args=["grunt-browserify@~1.2.8",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'grunt-browserify@~1.2.8',
+14 verbose parsed url   path: 'grunt-browserify@~1.2.8',
+14 verbose parsed url   href: 'grunt-browserify@~1.2.8' }
+15 verbose cache add name="grunt-browserify" spec="~1.2.8" args=["grunt-browserify","~1.2.8"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '~1.2.8',
+16 verbose parsed url   path: '~1.2.8',
+16 verbose parsed url   href: '~1.2.8' }
+17 verbose addNamed [ 'grunt-browserify', '~1.2.8' ]
+18 verbose addNamed [ null, '>=1.2.8- <1.3.0-' ]
+19 verbose cache add [ 'kami-math@0.0.0', null ]
+20 verbose cache add name=undefined spec="kami-math@0.0.0" args=["kami-math@0.0.0",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'kami-math@0.0.0',
+21 verbose parsed url   path: 'kami-math@0.0.0',
+21 verbose parsed url   href: 'kami-math@0.0.0' }
+22 verbose cache add name="kami-math" spec="0.0.0" args=["kami-math","0.0.0"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '0.0.0',
+23 verbose parsed url   path: '0.0.0',
+23 verbose parsed url   href: '0.0.0' }
+24 verbose addNamed [ 'kami-math', '0.0.0' ]
+25 verbose addNamed [ '0.0.0', '0.0.0' ]
+26 verbose cache add [ 'grunt-contrib-watch@~0.5.3', null ]
+27 verbose cache add name=undefined spec="grunt-contrib-watch@~0.5.3" args=["grunt-contrib-watch@~0.5.3",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'grunt-contrib-watch@~0.5.3',
+28 verbose parsed url   path: 'grunt-contrib-watch@~0.5.3',
+28 verbose parsed url   href: 'grunt-contrib-watch@~0.5.3' }
+29 verbose cache add name="grunt-contrib-watch" spec="~0.5.3" args=["grunt-contrib-watch","~0.5.3"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '~0.5.3',
+30 verbose parsed url   path: '~0.5.3',
+30 verbose parsed url   href: '~0.5.3' }
+31 verbose addNamed [ 'grunt-contrib-watch', '~0.5.3' ]
+32 verbose addNamed [ null, '>=0.5.3- <0.6.0-' ]
+33 verbose cache add [ 'browserify@~2.33.1', null ]
+34 verbose cache add name=undefined spec="browserify@~2.33.1" args=["browserify@~2.33.1",null]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'browserify@~2.33.1',
+35 verbose parsed url   path: 'browserify@~2.33.1',
+35 verbose parsed url   href: 'browserify@~2.33.1' }
+36 verbose cache add name="browserify" spec="~2.33.1" args=["browserify","~2.33.1"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '~2.33.1',
+37 verbose parsed url   path: '~2.33.1',
+37 verbose parsed url   href: '~2.33.1' }
+38 verbose addNamed [ 'browserify', '~2.33.1' ]
+39 verbose addNamed [ null, '>=2.33.1- <2.34.0-' ]
+40 silly lockFile 2deacc82-kami-math-0-0-0 kami-math@0.0.0
+41 verbose lock kami-math@0.0.0 /Users/Matt/.npm/2deacc82-kami-math-0-0-0.lock
+42 silly lockFile b469febc-grunt-contrib-watch-0-5-3 grunt-contrib-watch@~0.5.3
+43 verbose lock grunt-contrib-watch@~0.5.3 /Users/Matt/.npm/b469febc-grunt-contrib-watch-0-5-3.lock
+44 silly lockFile 4c596b4a-grunt-browserify-1-2-8 grunt-browserify@~1.2.8
+45 verbose lock grunt-browserify@~1.2.8 /Users/Matt/.npm/4c596b4a-grunt-browserify-1-2-8.lock
+46 silly addNameRange { name: 'grunt-contrib-watch',
+46 silly addNameRange   range: '>=0.5.3- <0.6.0-',
+46 silly addNameRange   hasData: false }
+47 silly lockFile 7ee6f15d-browserify-2-33-1 browserify@~2.33.1
+48 verbose lock browserify@~2.33.1 /Users/Matt/.npm/7ee6f15d-browserify-2-33-1.lock
+49 silly addNameRange { name: 'grunt-browserify',
+49 silly addNameRange   range: '>=1.2.8- <1.3.0-',
+49 silly addNameRange   hasData: false }
+50 verbose url raw kami-math/0.0.0
+51 verbose url resolving [ 'https://registry.npmjs.org/', './kami-math/0.0.0' ]
+52 verbose url resolved https://registry.npmjs.org/kami-math/0.0.0
+53 info trying registry request attempt 1 at 13:57:16
+54 http GET https://registry.npmjs.org/kami-math/0.0.0
+55 silly addNameRange { name: 'browserify',
+55 silly addNameRange   range: '>=2.33.1- <2.34.0-',
+55 silly addNameRange   hasData: false }
+56 verbose registry.get grunt-browserify not expired, no request
+57 silly addNameRange number 2 { name: 'grunt-browserify',
+57 silly addNameRange   range: '>=1.2.8- <1.3.0-',
+57 silly addNameRange   hasData: true }
+58 silly addNameRange versions [ 'grunt-browserify',
+58 silly addNameRange   [ '0.1.0',
+58 silly addNameRange     '0.1.1',
+58 silly addNameRange     '0.1.2',
+58 silly addNameRange     '0.1.3',
+58 silly addNameRange     '0.2.0',
+58 silly addNameRange     '0.2.1',
+58 silly addNameRange     '0.2.2',
+58 silly addNameRange     '0.2.3',
+58 silly addNameRange     '0.2.4',
+58 silly addNameRange     '0.2.5',
+58 silly addNameRange     '1.0.0',
+58 silly addNameRange     '1.0.1',
+58 silly addNameRange     '1.0.2',
+58 silly addNameRange     '1.0.3',
+58 silly addNameRange     '1.0.4',
+58 silly addNameRange     '1.0.5',
+58 silly addNameRange     '1.1.1',
+58 silly addNameRange     '1.2.0',
+58 silly addNameRange     '1.2.1',
+58 silly addNameRange     '1.2.2',
+58 silly addNameRange     '1.2.3',
+58 silly addNameRange     '1.2.4',
+58 silly addNameRange     '1.2.5',
+58 silly addNameRange     '1.2.6',
+58 silly addNameRange     '1.2.7',
+58 silly addNameRange     '1.2.8' ] ]
+59 verbose addNamed [ 'grunt-browserify', '1.2.8' ]
+60 verbose addNamed [ '1.2.8', '1.2.8' ]
+61 silly lockFile d189a897-grunt-browserify-1-2-8 grunt-browserify@1.2.8
+62 verbose lock grunt-browserify@1.2.8 /Users/Matt/.npm/d189a897-grunt-browserify-1-2-8.lock
+63 verbose registry.get grunt-contrib-watch not expired, no request
+64 silly addNameRange number 2 { name: 'grunt-contrib-watch',
+64 silly addNameRange   range: '>=0.5.3- <0.6.0-',
+64 silly addNameRange   hasData: true }
+65 silly addNameRange versions [ 'grunt-contrib-watch',
+65 silly addNameRange   [ '0.1.0',
+65 silly addNameRange     '0.1.1',
+65 silly addNameRange     '0.1.2',
+65 silly addNameRange     '0.1.3',
+65 silly addNameRange     '0.1.4',
+65 silly addNameRange     '0.2.0',
+65 silly addNameRange     '0.3.0',
+65 silly addNameRange     '0.3.1',
+65 silly addNameRange     '0.4.0',
+65 silly addNameRange     '0.4.1',
+65 silly addNameRange     '0.4.2',
+65 silly addNameRange     '0.4.3',
+65 silly addNameRange     '0.4.4',
+65 silly addNameRange     '0.5.0',
+65 silly addNameRange     '0.5.1',
+65 silly addNameRange     '0.5.2',
+65 silly addNameRange     '0.5.3',
+65 silly addNameRange     '0.2.0-a',
+65 silly addNameRange     '0.2.0-rc5',
+65 silly addNameRange     '0.2.0-rc7' ] ]
+66 verbose addNamed [ 'grunt-contrib-watch', '0.5.3' ]
+67 verbose addNamed [ '0.5.3', '0.5.3' ]
+68 silly lockFile d70d7cec-grunt-contrib-watch-0-5-3 grunt-contrib-watch@0.5.3
+69 verbose lock grunt-contrib-watch@0.5.3 /Users/Matt/.npm/d70d7cec-grunt-contrib-watch-0-5-3.lock
+70 verbose registry.get browserify not expired, no request
+71 silly addNameRange number 2 { name: 'browserify',
+71 silly addNameRange   range: '>=2.33.1- <2.34.0-',
+71 silly addNameRange   hasData: true }
+72 silly addNameRange versions [ 'browserify',
+72 silly addNameRange   [ '0.0.1',
+72 silly addNameRange     '0.0.2',
+72 silly addNameRange     '0.0.3',
+72 silly addNameRange     '0.0.4',
+72 silly addNameRange     '0.0.5',
+72 silly addNameRange     '0.1.0',
+72 silly addNameRange     '0.1.1',
+72 silly addNameRange     '0.1.2',
+72 silly addNameRange     '0.1.3',
+72 silly addNameRange     '0.1.4',
+72 silly addNameRange     '0.1.5',
+72 silly addNameRange     '0.2.0',
+72 silly addNameRange     '0.2.1',
+72 silly addNameRange     '0.2.2',
+72 silly addNameRange     '0.2.3',
+72 silly addNameRange     '0.2.4',
+72 silly addNameRange     '0.2.5',
+72 silly addNameRange     '0.2.6',
+72 silly addNameRange     '0.2.7',
+72 silly addNameRange     '0.2.8',
+72 silly addNameRange     '0.2.9',
+72 silly addNameRange     '0.2.10',
+72 silly addNameRange     '0.2.11',
+72 silly addNameRange     '0.3.0',
+72 silly addNameRange     '0.3.1',
+72 silly addNameRange     '0.3.2',
+72 silly addNameRange     '0.3.3',
+72 silly addNameRange     '0.3.4',
+72 silly addNameRange     '0.3.5',
+72 silly addNameRange     '0.3.6',
+72 silly addNameRange     '0.3.7',
+72 silly addNameRange     '0.4.0',
+72 silly addNameRange     '0.4.1',
+72 silly addNameRange     '0.4.2',
+72 silly addNameRange     '0.4.3',
+72 silly addNameRange     '0.4.4',
+72 silly addNameRange     '0.4.5',
+72 silly addNameRange     '0.4.6',
+72 silly addNameRange     '0.4.7',
+72 silly addNameRange     '0.4.8',
+72 silly addNameRange     '0.4.9',
+72 silly addNameRange     '0.4.10',
+72 silly addNameRange     '0.4.11',
+72 silly addNameRange     '0.4.12',
+72 silly addNameRange     '0.4.13',
+72 silly addNameRange     '0.4.14',
+72 silly addNameRange     '0.4.15',
+72 silly addNameRange     '0.5.0',
+72 silly addNameRange     '0.5.1',
+72 silly addNameRange     '0.5.2',
+72 silly addNameRange     '1.0.0',
+72 silly addNameRange     '1.1.0',
+72 silly addNameRange     '1.1.1',
+72 silly addNameRange     '1.1.2',
+72 silly addNameRange     '1.1.3',
+72 silly addNameRange     '1.1.4',
+72 silly addNameRange     '1.2.0',
+72 silly addNameRange     '1.2.1',
+72 silly addNameRange     '1.2.2',
+72 silly addNameRange     '1.2.3',
+72 silly addNameRange     '1.2.4',
+72 silly addNameRange     '1.2.5',
+72 silly addNameRange     '1.2.6',
+72 silly addNameRange     '1.2.7',
+72 silly addNameRange     '1.2.8',
+72 silly addNameRange     '1.2.9',
+72 silly addNameRange     '1.3.0',
+72 silly addNameRange     '1.4.0',
+72 silly addNameRange     '1.4.1',
+72 silly addNameRange     '1.4.2',
+72 silly addNameRange     '1.4.3',
+72 silly addNameRange     '1.4.4',
+72 silly addNameRange     '1.4.5',
+72 silly addNameRange     '1.4.6',
+72 silly addNameRange     '1.4.7',
+72 silly addNameRange     '1.4.8',
+72 silly addNameRange     '1.5.0',
+72 silly addNameRange     '1.6.0',
+72 silly addNameRange     '1.6.1',
+72 silly addNameRange     '1.7.0',
+72 silly addNameRange     '1.7.1',
+72 silly addNameRange     '1.7.2',
+72 silly addNameRange     '1.7.3',
+72 silly addNameRange     '1.7.4',
+72 silly addNameRange     '1.7.5',
+72 silly addNameRange     '1.7.6',
+72 silly addNameRange     '1.7.7',
+72 silly addNameRange     '1.8.0',
+72 silly addNameRange     '1.8.1',
+72 silly addNameRange     '1.8.2',
+72 silly addNameRange     '1.8.3',
+72 silly addNameRange     '1.9.0',
+72 silly addNameRange     '1.9.1',
+72 silly addNameRange     '1.9.2',
+72 silly addNameRange     '1.9.3',
+72 silly addNameRange     '1.9.4',
+72 silly addNameRange     '1.10.0',
+72 silly addNameRange     '1.10.1',
+72 silly addNameRange     '1.10.2',
+72 silly addNameRange     '1.10.3',
+72 silly addNameRange     '1.10.4',
+72 silly addNameRange     '1.10.5',
+72 silly addNameRange     '1.10.6',
+72 silly addNameRange     '1.10.7',
+72 silly addNameRange     '1.10.8',
+72 silly addNameRange     '1.10.9',
+72 silly addNameRange     '1.10.11',
+72 silly addNameRange     '1.10.12',
+72 silly addNameRange     '1.10.13',
+72 silly addNameRange     '1.10.14',
+72 silly addNameRange     '1.10.15',
+72 silly addNameRange     '1.10.16',
+72 silly addNameRange     '1.10.17',
+72 silly addNameRange     '1.11.0',
+72 silly addNameRange     '1.11.1',
+72 silly addNameRange     '1.12.0',
+72 silly addNameRange     '1.12.1',
+72 silly addNameRange     '1.12.2',
+72 silly addNameRange     '1.12.3',
+72 silly addNameRange     '1.13.0',
+72 silly addNameRange     '1.13.1',
+72 silly addNameRange     '1.13.2',
+72 silly addNameRange     '1.13.3',
+72 silly addNameRange     '1.13.4',
+72 silly addNameRange     '1.13.5',
+72 silly addNameRange     '1.13.6',
+72 silly addNameRange     '1.13.8',
+72 silly addNameRange     '1.13.9',
+72 silly addNameRange     '1.13.10',
+72 silly addNameRange     '1.14.0',
+72 silly addNameRange     '1.14.1',
+72 silly addNameRange     '1.14.2',
+72 silly addNameRange     '1.14.3',
+72 silly addNameRange     '1.14.4',
+72 silly addNameRange     '1.14.5',
+72 silly addNameRange     '1.15.0',
+72 silly addNameRange     '1.15.1',
+72 silly addNameRange     '1.15.2',
+72 silly addNameRange     '1.15.3',
+72 silly addNameRange     '1.15.4',
+72 silly addNameRange     '1.15.5',
+72 silly addNameRange     '1.15.6',
+72 silly addNameRange     '1.16.0',
+72 silly addNameRange     '1.16.1',
+72 silly addNameRange     '1.16.2',
+72 silly addNameRange     '1.16.3',
+72 silly addNameRange     '1.16.4',
+72 silly addNameRange     '1.16.5',
+72 silly addNameRange     '1.16.6',
+72 silly addNameRange     '1.16.7',
+72 silly addNameRange     '1.16.8',
+72 silly addNameRange     '1.17.0',
+72 silly addNameRange     '1.17.1',
+72 silly addNameRange     '1.17.2',
+72 silly addNameRange     '1.17.3',
+72 silly addNameRange     '1.18.0',
+72 silly addNameRange     '2.0.0',
+72 silly addNameRange     '2.0.1',
+72 silly addNameRange     '2.1.0',
+72 silly addNameRange     '2.2.0',
+72 silly addNameRange     '2.2.1',
+72 silly addNameRange     '2.2.2',
+72 silly addNameRange     '2.2.3',
+72 silly addNameRange     '2.2.4',
+72 silly addNameRange     '2.2.5',
+72 silly addNameRange     '2.2.6',
+72 silly addNameRange     '2.3.0',
+72 silly addNameRange     '2.3.1',
+72 silly addNameRange     '2.4.0',
+72 silly addNameRange     '2.4.1',
+72 silly addNameRange     '2.4.2',
+72 silly addNameRange     '2.4.3',
+72 silly addNameRange     '2.5.0',
+72 silly addNameRange     '2.5.1',
+72 silly addNameRange     '2.6.0',
+72 silly addNameRange     '2.6.1',
+72 silly addNameRange     '2.7.0',
+72 silly addNameRange     '2.7.1',
+72 silly addNameRange     '2.7.2',
+72 silly addNameRange     '2.7.3',
+72 silly addNameRange     '2.7.4',
+72 silly addNameRange     '2.8.0',
+72 silly addNameRange     '2.8.1',
+72 silly addNameRange     '2.9.0',
+72 silly addNameRange     '2.10.0',
+72 silly addNameRange     '2.10.1',
+72 silly addNameRange     '2.10.2',
+72 silly addNameRange     '2.11.0',
+72 silly addNameRange     '2.12.0',
+72 silly addNameRange     '2.12.1',
+72 silly addNameRange     '2.12.2',
+72 silly addNameRange     '2.12.3',
+72 silly addNameRange     '2.12.4',
+72 silly addNameRange     '2.12.5',
+72 silly addNameRange     '2.13.0',
+72 silly addNameRange     '2.13.1',
+72 silly addNameRange     '2.13.2',
+72 silly addNameRange     '2.13.3',
+72 silly addNameRange     '2.14.0',
+72 silly addNameRange     '2.14.1',
+72 silly addNameRange     '2.14.2',
+72 silly addNameRange     '2.15.0',
+72 silly addNameRange     '2.16.0',
+72 silly addNameRange     '2.17.0',
+72 silly addNameRange     '2.17.1',
+72 silly addNameRange     '2.17.2',
+72 silly addNameRange     '2.17.3',
+72 silly addNameRange     '2.17.4',
+72 silly addNameRange     '2.18.0',
+72 silly addNameRange     '2.18.1',
+72 silly addNameRange     '2.19.0',
+72 silly addNameRange     '2.20.0',
+72 silly addNameRange     '2.20.1',
+72 silly addNameRange     '2.20.2',
+72 silly addNameRange     '2.21.0',
+72 silly addNameRange     '2.22.0',
+72 silly addNameRange     '2.23.0',
+72 silly addNameRange     '2.23.1',
+72 silly addNameRange     '2.24.0',
+72 silly addNameRange     '2.24.1',
+72 silly addNameRange     '2.24.2',
+72 silly addNameRange     '2.24.3',
+72 silly addNameRange     '2.25.0',
+72 silly addNameRange     '2.25.1',
+72 silly addNameRange     '2.26.0',
+72 silly addNameRange     '2.27.0',
+72 silly addNameRange     '2.27.1',
+72 silly addNameRange     '2.28.0',
+72 silly addNameRange     '2.29.0',
+72 silly addNameRange     '2.29.1',
+72 silly addNameRange     '2.30.0',
+72 silly addNameRange     '2.31.0',
+72 silly addNameRange     '2.32.0',
+72 silly addNameRange     '2.32.1',
+72 silly addNameRange     '2.32.2',
+72 silly addNameRange     '2.32.3',
+72 silly addNameRange     '2.32.4',
+72 silly addNameRange     '2.33.0',
+72 silly addNameRange     '2.33.1' ] ]
+73 verbose addNamed [ 'browserify', '2.33.1' ]
+74 verbose addNamed [ '2.33.1', '2.33.1' ]
+75 silly lockFile f1ec06d2-browserify-2-33-1 browserify@2.33.1
+76 verbose lock browserify@2.33.1 /Users/Matt/.npm/f1ec06d2-browserify-2-33-1.lock
+77 verbose read json /Users/Matt/.npm/grunt-browserify/1.2.8/package/package.json
+78 verbose read json /Users/Matt/.npm/grunt-contrib-watch/0.5.3/package/package.json
+79 verbose read json /Users/Matt/.npm/browserify/2.33.1/package/package.json
+80 silly lockFile d189a897-grunt-browserify-1-2-8 grunt-browserify@1.2.8
+81 silly lockFile d189a897-grunt-browserify-1-2-8 grunt-browserify@1.2.8
+82 silly lockFile d70d7cec-grunt-contrib-watch-0-5-3 grunt-contrib-watch@0.5.3
+83 silly lockFile d70d7cec-grunt-contrib-watch-0-5-3 grunt-contrib-watch@0.5.3
+84 silly lockFile f1ec06d2-browserify-2-33-1 browserify@2.33.1
+85 silly lockFile f1ec06d2-browserify-2-33-1 browserify@2.33.1
+86 silly lockFile 4c596b4a-grunt-browserify-1-2-8 grunt-browserify@~1.2.8
+87 silly lockFile 4c596b4a-grunt-browserify-1-2-8 grunt-browserify@~1.2.8
+88 silly lockFile b469febc-grunt-contrib-watch-0-5-3 grunt-contrib-watch@~0.5.3
+89 silly lockFile b469febc-grunt-contrib-watch-0-5-3 grunt-contrib-watch@~0.5.3
+90 silly lockFile 7ee6f15d-browserify-2-33-1 browserify@~2.33.1
+91 silly lockFile 7ee6f15d-browserify-2-33-1 browserify@~2.33.1
+92 http 404 https://registry.npmjs.org/kami-math/0.0.0
+93 silly registry.get cb [ 404,
+93 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+93 silly registry.get     date: 'Sun, 06 Oct 2013 17:57:16 GMT',
+93 silly registry.get     'content-type': 'application/json',
+93 silly registry.get     'content-length': '52',
+93 silly registry.get     'cache-control': 'must-revalidate' } ]
+94 silly lockFile 2deacc82-kami-math-0-0-0 kami-math@0.0.0
+95 silly lockFile 2deacc82-kami-math-0-0-0 kami-math@0.0.0
+96 error 404 'kami-math' is not in the npm registry.
+96 error 404 You should bug the author to publish it
+96 error 404
+96 error 404 Note that you can also install from a
+96 error 404 tarball, folder, or http url, or git url.
+97 error System Darwin 12.3.0
+98 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+99 error cwd /projects/browserify-template
+100 error node -v v0.10.9
+101 error npm -v 1.2.24
+102 error code E404
+103 verbose exit [ 1, true ]
